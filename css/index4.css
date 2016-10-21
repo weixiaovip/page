@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none;
+}
+.contentCenter{
+    position: relative;
+    /*padding: 10px;*/
+    /*width: 1200px;*/
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 100%;
+    height: 100px;
+
+}
+
+/*查询条件*/
+.filterList{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    /*text-align: center;*/
+}
+
+.filterList dd{
+    display: inline-block;
+    margin-left: 20px;
+    /*width: 500px;*/
+    height: 35px;
+    line-height: 35px;
+}
+
+.filterList dd label{
+    height: 32px;
+}
+
+.filterList dd input{
+    width: 140px;
+    height: 25px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.filterList dd a{
+    font-size: 12px;
+}
+
+/*按钮*/
+.btnList{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.btnList span{
+    display: inline-block;
+    margin: 0 20px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #ff8001;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btnList span:hover{
+    background: #ffbc10;
+}
+
+/*列表*/
+.table{
+    width: 100%;
+    text-align: center;
+}
+
+
+.table tr{
+    height: 30px;
+    line-height: 30px;
+}
+
+.table tr:nth-child(even),.table tr.even{
+background: lightgrey;
+}
+
+
+.foot{
+    margin: 20px 0 0;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.foot span, .pageNumList li, .pageNumList b,.foot input{
+    float: left;
+    line-height: 35px;
+    height: 35px;
+    margin: 0 5px;
+    border: 1px solid #aaa;
+    width: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.pageNumList{
+    float: left;
+}
+
+.pageNumList:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.pageNumList li.cur{
+    background: lightcoral;
+}

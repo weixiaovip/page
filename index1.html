@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>广告投放效果详情</title>
+    <link rel="stylesheet" href="css/index1.css">
+</head>
+<body>
+
+<script src="js/jquery.js"></script>
+
+<div class="contentCenter">
+    <form class="header">
+
+        <dl class="filterList">
+            <dd>
+                <label for="startTime">起始时间</label>
+                <input id="startTime" class="Wdate" type="text" name="startTime" size="12" readonly="" onclick="WdatePicker({isShowClear:false,dateFmt:'yyyy-MM-dd'})" value="">
+                <a class="dateClean" href="javascript:;">清空</a>
+            </dd>
+            <dd>
+                <label for="endTime">结束时间</label>
+                <input id="endTime" class="Wdate"  type="text" name="endTime" size="12" readonly="" onclick="WdatePicker({isShowClear:false,dateFmt:'yyyy-MM-dd'})" value="">
+                <a class="dateClean"  href="javascript:;">清空</a>
+            </dd>
+        </dl>
+
+        <!--隐藏域--数据偏移量-->
+        <input class="startIndex" type="hidden" name="startIndex" value="">
+        <!--隐藏域--每页数据的条数-->
+        <input class="pageSize" type="hidden" name="pageSize" value="10">
+
+        <div class="btnList">
+            <span class="btnQuery">查询</span>
+            <span class="btnExport">导出</span>
+        </div>
+    </form>
+    <table class="table" border="1" cellspacing="0" cellpadding="0">
+        <thead> <!--表头，只能有1个，可以没有-->
+        <tr>
+            <th>转化（注册+留资+呼出）</th>
+            <th>来源</th>
+            <th>触发时间</th>
+            <th>ip</th>
+            <th>来源渠道</th>
+            <th>推广方式</th>
+            <th>地域</th>
+            <th>单元</th>
+            <th>关键词</th>
+        </tr>
+        </thead>
+
+        <tbody class="listInfo">
+        <tr>
+            <td class="rol1">1</td>
+            <td class="rol2">www.baidu.com</td>
+            <td class="rol3">2016-10-13 09:34:46</td>
+            <td class="rol4">192.*.*.*</td>
+            <td class="rol5">baidu_22202809</td>
+            <td class="rol6">sem</td>
+            <td class="rol7">湖南-怀化-新车</td>
+            <td class="rol8">车型-科鲁兹-价格</td>
+            <td class="rol9">雪佛兰科鲁兹价格</td>
+        </tr>
+
+        <tr>
+            <td class="rol1">1</td>
+            <td class="rol2">www.baidu.com</td>
+            <td class="rol3">2016-10-13 09:34:46</td>
+            <td class="rol4">192.*.*.*</td>
+            <td class="rol5">baidu_22202809</td>
+            <td class="rol6">sem</td>
+            <td class="rol7">湖南-怀化-新车</td>
+            <td class="rol8">车型-科鲁兹-价格</td>
+            <td class="rol9">雪佛兰科鲁兹价格</td>
+        </tr>
+
+        <tr>
+            <td class="rol1">1</td>
+            <td class="rol2">www.baidu.com</td>
+            <td class="rol3">2016-10-13 09:34:46</td>
+            <td class="rol4">192.*.*.*</td>
+            <td class="rol5">baidu_22202809</td>
+            <td class="rol6">sem</td>
+            <td class="rol7">湖南-怀化-新车</td>
+            <td class="rol8">车型-科鲁兹-价格</td>
+            <td class="rol9">雪佛兰科鲁兹价格</td>
+        </tr>
+        <tr>
+            <td class="rol1">1</td>
+            <td class="rol2">www.baidu.com</td>
+            <td class="rol3">2016-10-13 09:34:46</td>
+            <td class="rol4">192.*.*.*</td>
+            <td class="rol5">baidu_22202809</td>
+            <td class="rol6">sem</td>
+            <td class="rol7">湖南-怀化-新车</td>
+            <td class="rol8">车型-科鲁兹-价格</td>
+            <td class="rol9">雪佛兰科鲁兹价格</td>
+        </tr>
+        <tr>
+            <td class="rol1">1</td>
+            <td class="rol2">www.baidu.com</td>
+            <td class="rol3">2016-10-13 09:34:46</td>
+            <td class="rol4">192.*.*.*</td>
+            <td class="rol5">baidu_22202809</td>
+            <td class="rol6">sem</td>
+            <td class="rol7">湖南-怀化-新车</td>
+            <td class="rol8">车型-科鲁兹-价格</td>
+            <td class="rol9">雪佛兰科鲁兹价格</td>
+        </tr>
+        <tr>
+            <td class="rol1">1</td>
+            <td class="rol2">www.baidu.com</td>
+            <td class="rol3">2016-10-13 09:34:46</td>
+            <td class="rol4">192.*.*.*</td>
+            <td class="rol5">baidu_22202809</td>
+            <td class="rol6">sem</td>
+            <td class="rol7">湖南-怀化-新车</td>
+            <td class="rol8">车型-科鲁兹-价格</td>
+            <td class="rol9">雪佛兰科鲁兹价格</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <div class="foot" id="foot">
+        <span class="firstPage">FIRST</span>
+        <span class="prevPage">PREV</span>
+        <ul class="pageNumList">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <span class="nextPage">NEXT</span>
+        <span class="lastPage">LAST</span>
+        <input class="inputPage" type="text" value="1">
+    </div>
+
+</div>
+<script src="js/My97DatePicker/WdatePicker.js"></script>
+<script src="js/page.js"></script>
+<script src="js/index1.js"></script>
+</body>
+</html>

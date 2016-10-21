@@ -1,0 +1,57 @@
+{
+  "list": [
+    {
+      "channelType": 2,
+      "channelTypeName": "??WAP",
+      "cookieId": "CmhlelgF5eoNF1eLAwMOAg==",
+      "createTime": "2016-10-20 20:47:20.000",
+      "id": 4,
+      "ip": "10.100.18.247",
+      "srcKey": "be_85230323602808427_00005",
+      "timeStr": "2016-10-20 20:47:20",
+      "transformName": "????"
+    },
+    {
+      "channelType": 1,
+      "channelTypeName": "??WEB",
+      "createTime": "2016-10-20 20:01:23.000",
+      "id": 3,
+      "ip": "1",
+      "sourceSite": "1",
+      "timeStr": "2016-10-20 20:01:23",
+      "transformName": "??",
+      "utmSource": "1"
+    },
+    {
+      "channelType": 2,
+      "channelTypeName": "??WAP",
+      "createTime": "2016-10-21 20:01:02.000",
+      "id": 2,
+      "ip": "2",
+      "sourceSite": "3",
+      "timeStr": "2016-10-21 20:01:02",
+      "transformName": "??",
+      "utmMedium": "1",
+      "utmSource": "2"
+    },
+    {
+      "channelType": 1,
+      "channelTypeName": "??WEB",
+      "cookieId": "1",
+      "createTime": "2016-10-20 19:58:30.000",
+      "id": 1,
+      "ip": "1",
+      "oldKey": "1",
+      "sourceSite": "1",
+      "srcKey": "1",
+      "timeStr": "2016-10-20 19:58:30",
+      "transformName": "??",
+      "utmCampaign": "1",
+      "utmContent": "1",
+      "utmMedium": "1",
+      "utmSource": "1",
+      "utmTerm": "1"
+    }
+  ],
+  "totalCount": 500
+}

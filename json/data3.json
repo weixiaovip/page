@@ -1,0 +1,25 @@
+[
+  {
+    "amount": 1,
+    "goutong": 1,
+    "huru": 0,
+    "liuzi": 0,
+    "zhuce": 0
+  },
+  {
+    "amount": 2,
+    "goutong": 0,
+    "huru": 0,
+    "liuzi": 0,
+    "source": "1",
+    "zhuce": 2
+  },
+  {
+    "amount": 1,
+    "goutong": 0,
+    "huru": 0,
+    "liuzi": 1,
+    "source": "2",
+    "zhuce": 0
+  }
+]
